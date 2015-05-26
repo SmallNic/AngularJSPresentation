@@ -1,4 +1,4 @@
-# Angular JS Presentation
+# Angular JS
 
 ## Learning Objectives
 - Provide background on Angular JS.
