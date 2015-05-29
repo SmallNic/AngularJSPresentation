@@ -17,7 +17,7 @@ AngularJS is a client-side framework that allows you to create more dynamic / in
 ```
 One of Angular's key selling points is that it doesn't need to programmatically manipulate the DOM. Instead you can describe how the User Interface should change as the state of the application changes. What this means is that you can create a model and establish the view as a projection of that model. Then when the model changes, the view automatically reflects that change. And vice versa as well. And it does this super quickly.
 
-This process is called data-binding and it is the "automatic synchronization of data between the model and view components." As you'd imagine it ends up eliminating a lot of code.
+This process is called **data-binding** and it is the "automatic synchronization of data between the model and view components." As you'd imagine it ends up eliminating a lot of code.
 
 So let's jump right into building a simple Angular JS App, and we'll discuss it as we go along. We're going to build an app that displays "Hello name," where name will be submitted by a user in a form. We will witness how the display changes dynamically as the user updates the form.
 
@@ -95,7 +95,7 @@ ng-app
 ng-model="yourName"
 ```
 
-These are all called directives. Directives tell AngularJS's HTML compiler to attach a specified behavior to a specific DOM element. 
+These are all called **directives**. Directives tell AngularJS's HTML compiler to attach a specified behavior to a specific DOM element. 
 The *ng-app* directive simply initializes our application
 The *ng-model* directive stores/updates the value of the input field into/from a variable, i.e. *yourName*
 
