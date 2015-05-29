@@ -108,11 +108,9 @@ And now you know just as much AngularJS as I do. But how cool was that? It even 
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
   </head>
-  <body style="background:{{backgroundColor}}">
-    <label>Name:</label>
-    <input type="text" ng-model="yourName" placeholder="Enter a name here">
-    <h1>Hello {{yourName}}! What color would you like your webpage to be?</h1>
-    <input type="text" ng-model="backgroundColor" placeholder="Enter a color here">
+  <body style="background:{{color}}">
+    <label>Background:</label>
+    <input type="text" ng-model="color" placeholder="Enter a background color">
   </body>
 </html>
 ```
